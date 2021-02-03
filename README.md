@@ -15,7 +15,13 @@ The webpage would include a call to action, about information, contact informati
 * Add Gallery using grid
 * ~~Add a script to animate hamburger menu~~
 * Add login/sign-up
+
 ---
+
+## Honorable Mentions
+* Kyle Welsh - Helped with the background of the artists section
+---
+
 ## Attributions
 ### Images
 * AngelOnBackTattoo.jpg image by [Darren Nunis](https://unsplash.com/@dnunis) on [Unsplash](https://unsplash.com/photos/ftoD84_RRdM)
