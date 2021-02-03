@@ -107,7 +107,7 @@ main h2 {
 .artist {
   min-width: 20ch;
   max-width: 400px;
-  background-color: black;
+  background-color: rgb(80, 80, 80);
   color: white;
   border-radius: 20px;
   margin: 2rem;
