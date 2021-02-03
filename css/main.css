@@ -126,7 +126,7 @@ main h2 {
   background-position: center;
   background-repeat: no-repeat;
 
-  opacity: 0.9;
+  opacity: 0.75;
 }
 
 /* Using background images instead of images */
@@ -157,7 +157,6 @@ main h2 {
 
 .artist:hover {
   transform: scale(1.1);
-  opacity: 1;
   background-color: hsl(0, 60%, 40%);
 }
 
