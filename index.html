@@ -19,6 +19,7 @@
     <nav>
       <a class="ham-toggle" onclick="toggleHam()"><i class="fas fa-bars"></i></a>
       <ul class="navigation" id="navigation">
+        <li><a href="#about">About</a></li>
         <li><a href="#artists">Artists</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="mailto:vitaly.gins@gmail.com" target="_self">Contact</a></li>
@@ -37,7 +38,7 @@
 
   </header>
   <main>
-    <section class="about">
+    <section class="about" id="about">
       <div><h2 class="ver-sec-head">The Studio</h2></div>
       <article>
         <p><em>Tattoo Shop</em> is your first choice to <strong>express&nbsp;yourself</strong>. We have 10 years of experience in enhancing your message. Bring us your ideas and watch creativity happen.</p>
@@ -111,11 +112,12 @@
   <footer>
     <p>Copyright &copy; <time datetime="2021-01-29">2021</time> <a href="mailto:vitaly.gins@gmail.com" target="_self">Vitaly&nbsp;Gins</a>. All rights reserved.</p>
   </footer>
+  <!-- Listener function to remove the inline HTML style from the navigation menu when resized to a width larger than 700px -->
   <script>
     window.addEventListener("resize", function(){
         var navMenu = document.getElementById("navigation");
         var windowSize = window.innerWidth;
-        if (windowSize > 600) {
+        if (windowSize > 700) {
           navMenu.style.display = null;
         }
     });
